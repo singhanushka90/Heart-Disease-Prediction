@@ -56,6 +56,6 @@ if st.button("Predict"):
         if result==1:
             st.error("High Risk : HEART DISEASE DETECTED!")
         else:
-            st.success("Low Risk : NOw HEART DISEASE DETECTED!")
+            st.success("Low Risk : NO HEART DISEASE DETECTED!")
         st.balloons()
     
