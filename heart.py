@@ -8,17 +8,19 @@ scaler=pickle.load(open("heart_scaler.pkl",'rb'))
 st.set_page_config(page_title="Heart Disease Prediction",layout='centered')
 
 st.markdown("""<h1 style='text-align : center ; color: red;'> Heart Disease Prediction </h1>
-            <p style='text-align : center; color: blue;'> Enter patient details to check heart disease risk </p>
+            <p style='text-align : center; color: blue;'> Enter patient details to predict heart disease risk using ML </p>
             <hr>
             """,unsafe_allow_html=True)
-
+st.sidebaar.title("About")
+st.sidebaar.info("""
+This model predicts heart disease risk using machine learning """
 col1,col2=st.columns(2) 
 
 with col1:
     st.subheader("Patient Details")
     age=st.number_input("Age",1,120,45)
     sex=st.selectbox('Sex',['Female','Male'])
-    cp=st.selectbox('Chest Pain Tyep',[0,1,2,3])
+    cp=st.selectbox('Chest Pain Type',[0,1,2,3])
     st.subheader("Health Stats")
     rbp=st.number_input("Resting Blood Pressure",50,250,120)
     chol=st.number_input("Cholestrol",50,600,200)
