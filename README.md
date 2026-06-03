@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:ef4444&height=200&section=header&text=Heart%20Disease%20Prediction&fontSize=35&fontColor=ffffff" />
 </p>
 
-<h1 align="center">🫀 Heart Disease Prediction System</h1>
+<h1 align="center">🫀 Heart Disease Prediction</h1>
 <h3 align="center">AI-Powered Cardiovascular Risk Assessment</h3>
 
 <p align="center">
