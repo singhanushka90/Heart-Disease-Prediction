@@ -19,7 +19,7 @@
 <h2>🧠 Overview</h2>
 
 <p>
-A <b>high-performance machine learning system</b> designed for early-stage heart disease detection.
+A <b>high-performance machine learning project</b> designed for early-stage heart disease detection.
 Built with a focus on <b>accuracy, interpretability, and real-world healthcare impact</b>.
 </p>
 
