@@ -238,7 +238,7 @@ Heart_Prediction/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Heart_Prediction.git
+git clone https://github.com/singhanushka90/Heart_Prediction.git
 cd Heart_Prediction
 
 # Install required packages
